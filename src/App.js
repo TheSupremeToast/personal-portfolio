@@ -2,17 +2,14 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route }
     from "react-router-dom";
 
+// Local imports
 import './App.css';
-
 import Navbar from "./components/Navbar"
 import Home from "./pages/home";
 import About from "./pages/about";
 import Blog from "./pages/blog";
 import Projects from "./pages/projects";
 import Photography from "./pages/photography";
-
-// TODO: get this stuff working with index.js
-// import { Home, About, Blog, Projects, Photography } from "./pages";
 
 function App() {
   return (
